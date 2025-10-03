@@ -1,8 +1,7 @@
-import { socialItems, workItems } from "@/lib/constants";
 import WorkCard from "@/components/layout/work-card";
+import { socialItems, workItems } from "@/lib/constants";
 import ProjectCard from "@/components/layout/project-card";
 import SocialCard, { Name } from "@/components/layout/social-card";
-import Divider from "@/components/layout/divider";
 
 export default function Page() {
   return (
