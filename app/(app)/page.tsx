@@ -8,12 +8,13 @@ export default function Page() {
     <>
       <section className="w-full">
         <h1 className="mt-8 flex items-center font-medium tracking-tight">
-          Hey, I'm Leovin
+          Hey, I&apos;m Leovin
         </h1>
         <p className="mt-5 text-muted-foreground">
-          I'm a software engineer with 4+ years of experience in developing,
-          testing, and maintaining software for web and mobile applications. My
-          focus is on creating clean, efficient, and maintainable code.
+          I&apos;m a software engineer with 4+ years of experience in
+          developing, testing, and maintaining software for web and mobile
+          applications. My focus is on creating clean, efficient, and
+          maintainable code.
         </p>
         <div className="mt-5 flex w-full flex-wrap justify-start gap-3">
           {socialItems.map((item) => (
@@ -47,10 +48,10 @@ export default function Page() {
           My Career
         </p>
         <p className="mt-5 text-muted-foreground">
-          Besides freelancing, I've taken on different roles that pushed me to
-          grow and pick up new skills along the way. Every stop in my career has
-          taught me something valuable and helped me adapt to this ever-changing
-          tech world.
+          Besides freelancing, I&apos;ve taken on different roles that pushed me
+          to grow and pick up new skills along the way. Every stop in my career
+          has taught me something valuable and helped me adapt to this
+          ever-changing tech world.
         </p>
         <div className="mt-5 flex w-full flex-col">
           {workItems.map((item, index) => (
